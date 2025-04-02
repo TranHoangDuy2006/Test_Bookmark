@@ -1,0 +1,56 @@
+.container {
+    width: 50%;
+    height: 70vh;
+    margin: 30px auto;
+    background-image: url(https://media.istockphoto.com/id/1203913851/vector/abstract-purple-background-geometric-texture.jpg?s=612x612&w=0&k=20&c=_j0w7vF2q_Au6rpdbJXNPCs1Ls8gFeX5hyeoEggffXQ=);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    user-select: none;
+    box-shadow: 10px 10px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    margin: 30px 420px;
+    outline: 3px solid yellow;
+}
+
+#bookmark-field {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.bookmark-style {
+    width: 90%;
+    height: 60px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: relative;
+
+}
+
+i {
+    font-weight: bold;
+    cursor: pointer; 
+    font-size: 20px; 
+    position: absolute; 
+    right: 15px;
+    color: #0d6efd;
+}
+
+.icon {
+    position: absolute;
+    left: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
